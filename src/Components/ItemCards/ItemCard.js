@@ -1,6 +1,6 @@
 import { useState, useContext } from "react";
 import classes from "./ItemCard.module.css";
-import imgUrl from "../../assests/item-5.jpg";
+import imgUrl from "../../assests/item-3.jpg";
 import PriceCard from "./PriceCard";
 import CartContext from "../../Store/CartContext";
 import FavoritContext from "../../Store/FavoritContext";
@@ -39,7 +39,7 @@ function ItemCard(props) {
       className={classes["item-card"]}
     >
       <div className={classes["item-image"]}>
-        <img src="../../assests/item-10.jpg" alt="Item Image"></img>
+        <img src={imgUrl} alt="Item Image"></img>
       </div>
       <div className={classes["card-text"]}>
         <h2>{props.title}</h2>
