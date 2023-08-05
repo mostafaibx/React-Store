@@ -1,0 +1,38 @@
+.price-card {
+  width: 300px;
+  height: 500px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(161, 161, 161, 0.721);
+}
+.price-card p {
+  font-weight: 700;
+  font-size: 56px;
+  margin-top: 30%;
+  text-align: center;
+  justify-content: center;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+}
+.actions button {
+  font-weight: 500;
+  font-size: 18px;
+  margin: 30% 5%;
+  text-align: center;
+  cursor: pointer;
+  background-color: #dcdcdc;
+  border: 2px solid #a09f9f;
+  color: rgb(0, 0, 0);
+  padding: 0.25rem 2rem;
+  border-radius: 20px;
+}
+
+.actions button:hover,
+.actions button:active {
+  background-color: #a09f9f;
+  border-color: #dcdcdc;
+}

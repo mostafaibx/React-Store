@@ -1,0 +1,24 @@
+.item-card {
+  width: 300px;
+  height: 500px;
+  border: 2px solid black;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.item-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.card-text {
+  padding: 5%;
+  text-overflow: clip;
+}
+
+.card-text h2 {
+  font-size: 24px;
+  margin-top: 0;
+}

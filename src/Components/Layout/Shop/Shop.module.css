@@ -1,0 +1,7 @@
+.main-grid {
+  margin: 10% 5% 10% 5%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+  grid-template-rows: auto;
+  grid-gap: 20px;
+}
